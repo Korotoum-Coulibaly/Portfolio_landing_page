@@ -1,8 +1,10 @@
 header {
     width: 100%;
-    background-color:rgb(16, 6, 100);
+    background-color:rgb(241, 241, 243);
     height: 70px;
-   
+    border-bottom: 1px solid #e8e6e6;
+    position: fixed;
+
 }
 
 #Navbar {
@@ -35,7 +37,7 @@ header {
 
   #Navbar ul li a {
     display: block;
-    color: #ffffff;
+    color: black;
     font-size: 15px;
     text-decoration: none;
   }
@@ -112,7 +114,6 @@ header {
 #features .dashboard {
     width: 65%;
     padding: 10px;
-
 }
 
 .card-container {
@@ -123,17 +124,16 @@ header {
   
   .card {
     background-color: #fff;
-    border: 2px solid #f62b02; /* Bordure rouge */
+    border: 2px solid #ec8258; /* Bordure rouge */
     border-radius: 6px;
-    padding: 20px;
-    margin: 10px;
+    padding: 15px;
+    margin: 8px;
     text-align: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
   
   .card-title {
     font-size: 24px;
-    text-shadow: 0 0 2px rgba(0, 0, 0, 0.5); /* Ombre du texte */
   }
   
   .card-content {
@@ -141,3 +141,57 @@ header {
     color: #000; /* Couleur du texte */
   }
   
+  #feature2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 40px;
+    background-color: rgb(241, 241, 243);
+
+}
+#feature2 .dashboard img {
+  float: left;
+  max-width: 100%;
+  height: 50%;
+}
+#feature2 .dashboard {
+  width: 65%;
+  padding: 10px;
+
+}
+  #Timeline{
+    padding: 20px;
+    padding-left: 100px;
+    padding-right:  100px;
+  }
+	.timeline {
+		margin-top: 40px;
+	}
+
+	.timeline-item {
+		position: relative;
+		margin-bottom: 40px;
+	}
+
+	.timeline-item::before {
+		content: "";
+		position: absolute;
+		top: 0;
+		width: 4px;
+		height: 100%;
+		background-color: #f77f4f;
+	}
+
+	.timeline-item-content {
+		padding-left: 50px;
+	}
+
+	.timeline-item-title {
+		color: #333;
+		font-size: 20px;
+		margin-bottom: 10px;
+	}
+
+	.timeline-item-date {
+		color: #777;
+	}
