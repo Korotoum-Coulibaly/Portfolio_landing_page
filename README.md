@@ -1,1 +1,1 @@
-CS devis
+![Texte alternatif](images/logo.png)
